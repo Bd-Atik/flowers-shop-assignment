@@ -1,0 +1,54 @@
+/* common styles */
+* {
+    font-family: "Lato", sans-serif;
+  }
+  a {
+      text-decoration: none;
+  }
+  /* section {
+    margin: 200px 180px;
+  } */
+  .btn-primary {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      padding: 15px 25px;
+      background: #E55473;
+      border: 0;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+  }
+
+  /* banner styles */
+  .banner{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 30px 150px 0 150px;
+    background: #f4e2e7;
+  }
+  .banner-content {
+    padding: 0 50px;
+    width: 70%;
+  }
+  .banner-title {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    margin: 25px 0;
+  }
+  .banner-description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #757575;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .banner img {
+    width: 500px;
+  }
+  
