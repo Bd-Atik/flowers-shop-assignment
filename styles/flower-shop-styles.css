@@ -5,14 +5,14 @@
   a {
       text-decoration: none;
   }
-  /* section {
-    margin: 200px 180px;
-  } */
+  section {
+    margin: 0 150px;
+  }
   .btn-primary {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       color: #fff;
-      padding: 15px 25px;
+      padding: 12px 20px;
       background: #E55473;
       border: 0;
       border-radius: 5px;
@@ -21,14 +21,30 @@
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
   }
-
+  .section-title {
+    margin-top: 150px;
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .section-description {
+    font-size: 15px;
+    line-height: 25px;
+    color: #757575;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
   /* banner styles */
+  header {
+    background: #f4e2e7;
+  }
   .banner{
     display: flex;
     gap: 50px;
     align-items: center;
-    padding: 30px 150px 0 150px;
-    background: #f4e2e7;
   }
   .banner-content {
     padding: 0 50px;
@@ -36,19 +52,83 @@
   }
   .banner-title {
     color: #272727;
-    font-size: 65px;
+    font-size: 62px;
     font-weight: 800;
     margin: 25px 0;
   }
   .banner-description {
     font-size: 15px;
-    font-weight: 400;
     line-height: 25px;
     color: #757575;
     text-align: justify;
     margin-bottom: 25px;
   }
-  .banner img {
+  .banner > img {
     width: 500px;
   }
   
+/* main section styles */
+.featured-flower-content {
+  display: flex;
+  justify-content: space-around;
+}
+.flower-content-column {
+  text-align: center;
+}
+.flowers-img1 {
+  margin-top: 50px;
+  padding: 70px 50px 0 50px;
+  background: #f4e2e7;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.flowers-img2 {
+  margin-top: 50px;
+  padding: 70px 50px 0 50px;
+  background: #d0effa;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.flowers-img3 {
+  margin-top: 50px;
+  padding: 70px 50px 0 50px;
+  background: #f0f8dd;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.flower-content-column > img {
+  height: 400px;
+  width: 270px;
+}
+.flowers-name {
+  font-size: 20px;
+}
+.customer-service-content {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  background: #f4f3f4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.customer-service {
+  text-align: center;
+  padding: 70px 0;
+}
+/* hot-deal section start */
+#hot-deal {
+  margin: 120px 0;
+  background: #fbf4f6;
+  padding: 70px 250px;
+}
+.hot-deal-content {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up-btn {
+  margin-top: 20px;
+  text-align: center;
+}
